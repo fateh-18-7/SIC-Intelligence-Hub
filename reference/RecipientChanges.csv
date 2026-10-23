@@ -1,0 +1,4 @@
+ChangeID,EmployeeID,EffectiveDate,ChangeType,OldValue,NewValue,Approver
+RC01,E107,2026-09-01,New hire,,East / MGR-02,HR Ops (synthetic)
+RC02,E104,2026-09-16,Territory change,East,West,Sales Ops (synthetic)
+RC03,E108,2026-09-15,Leaver,Active,Inactive,HR Ops (synthetic)

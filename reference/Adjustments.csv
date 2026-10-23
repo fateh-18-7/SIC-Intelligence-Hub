@@ -1,0 +1,5 @@
+AdjID,EmployeeID,Period,AmountEUR,Reason,ApprovalStatus,Approver
+ADJ01,E103,2026-08,500,Q2 SPIFF true-up,Approved,SIC Lead (synthetic)
+ADJ02,E105,2026-09,-300,Recovery of prior overpayment,Approved,SIC Lead (synthetic)
+ADJ03,E101,2026-10,750,Manager discretionary award,Pending,
+ADJ04,E104,2026-10,250,Territory transition support,Approved,SIC Lead (synthetic)
