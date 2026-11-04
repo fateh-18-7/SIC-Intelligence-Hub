@@ -5,14 +5,14 @@ Status: **UNVERIFIED.** The M code was written to the Power Query spec, but no P
 ## 1. Folder layout
 
 ```
-SIC_Intelligence_Hub_v2\data\                 Sales_2026-08.csv, Sales_2026-09.csv, Sales_2026-10.csv
-SIC_Intelligence_Hub_v2\demo_hold_back\       Sales_2026-11.csv  (move into data\ during the demo)
+SIC_Intelligence_Hub\data\                 Sales_2026-08.csv, Sales_2026-09.csv, Sales_2026-10.csv
+SIC_Intelligence_Hub\demo_hold_back\       Sales_2026-11.csv  (move into data\ during the demo)
 ```
 
 ## 2. Create the parameter
 
 Data > Get Data > Launch Power Query Editor > Home > Manage Parameters > New.
-Name `pDataFolder`, Type Text, Current value = the full path of your data folder **ending with a backslash**, for example `C:\Users\you\Documents\SIC_Intelligence_Hub_v2\data\`.
+Name `pDataFolder`, Type Text, Current value = the full path of your data folder **ending with a backslash**, for example `C:\Users\you\Documents\SIC_Intelligence_Hub\data\`.
 
 ## 3. Queries
 

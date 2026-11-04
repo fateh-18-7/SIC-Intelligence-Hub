@@ -60,7 +60,7 @@ def footer(c, d):
     c.saveState()
     c.setFont("Helvetica", 7.5)
     c.setFillColor(colors.HexColor("#777777"))
-    c.drawString(20 * mm, 10 * mm, "SIC Intelligence Hub v2 - beginner's guide. Synthetic prototype, not GE HealthCare data or systems.")
+    c.drawString(20 * mm, 10 * mm, "SIC Intelligence Hub - beginner's guide. Synthetic prototype, not GE HealthCare data or systems.")
     c.drawRightString(190 * mm, 10 * mm, f"Page {d.page}")
     c.restoreState()
 
@@ -73,7 +73,7 @@ s.append(box("<b>Read this first.</b> Everything in this project is <b>synthetic
              "people or numbers. Say this out loud at the start of any demo.", YEL))
 s.append(Spacer(1, 10 * mm))
 s.append(table([["Where things are", ""],
-                ["Project folder (your Mac)", "Documents / SIC_Intelligence_Hub_v2"],
+                ["Project folder (your Mac)", "Documents / SIC_Intelligence_Hub"],
                 ["Main file", "SIC_Intelligence_Hub.xlsx (open it in Excel, start on the <b>Controls</b> sheet)"],
                 ["Power BI report", "app.powerbi.com > My workspace > <b>SIC Intelligence Hub - Dashboard (synthetic)</b>"],
                 ["Demo file", "demo_hold_back / Sales_2026-11.csv (keep it OUT of the data folder until the demo)"],
@@ -182,7 +182,7 @@ s.append(PageBreak())
 
 s.append(p("5. How to use it, step by step", H1))
 s.append(p("A. Look at this month's status", H2))
-s += bullets(["Open <b>Documents / SIC_Intelligence_Hub_v2 / SIC_Intelligence_Hub.xlsx</b> in Excel.",
+s += bullets(["Open <b>Documents / SIC_Intelligence_Hub / SIC_Intelligence_Hub.xlsx</b> in Excel.",
               "Go to the <b>Controls</b> sheet. You will see 11 checks PASS and 1 FAIL (C8: 4 open High exceptions). RUN STATUS = <b>HOLD</b>. That is correct: there are problems to fix.",
               "Go to <b>Calc_Payout</b> to see each person's payout and review status."])
 s.append(p("B. Fix a problem (exception)", H2))

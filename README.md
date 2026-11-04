@@ -1,4 +1,4 @@
-# SIC Intelligence Hub v2
+# SIC Intelligence Hub
 
 **SYNTHETIC prototype** inspired by a Sales Incentive Compensation (SIC) intern role. It doesn't reflect GE HealthCare's plans, systems, people or data.
 

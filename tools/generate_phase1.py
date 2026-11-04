@@ -9,7 +9,7 @@ from openpyxl.worksheet.table import Table, TableStyleInfo
 from openpyxl.utils import get_column_letter
 
 random.seed(2026)
-OUT = "/tmp/sic/SIC_Intelligence_Hub_v2"
+OUT = "/tmp/sic/SIC_Intelligence_Hub"
 DATA = os.path.join(OUT, "data")
 REF = os.path.join(OUT, "reference")
 DEMO = os.path.join(OUT, "demo_hold_back")
@@ -310,7 +310,7 @@ wb["Planted_Errors"].column_dimensions["B"].width = 55
 wb["Planted_Errors"].column_dimensions["H"].width = 95
 
 rd = wb.create_sheet("README", 0)
-lines = [LABEL, "", "SIC Intelligence Hub v2 - Phase 1 synthetic data",
+lines = [LABEL, "", "SIC Intelligence Hub - Phase 1 synthetic data",
          "Periods: 2026-08, 2026-09, 2026-10. 8 recipients. Product families: AIS, PDx, PCS.",
          "Folders: data/ = Sales_*.csv for the folder import; reference/ = master tables; demo_hold_back/Sales_2026-11.csv stays OUT of data/ until the demo.",
          "Sheets: Sales_Raw (tSales), FX, Recipients, Assignments, Quotas, Plan, Adjustments, Recipient_Changes, Exceptions, Tests, Planted_Errors, Data_Dictionary."]
